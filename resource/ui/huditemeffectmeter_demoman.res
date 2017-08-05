@@ -1,0 +1,105 @@
+"Resource/UI/HudItemEffectMeter_Demoman.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-20"	[$WIN32]
+		"ypos"			"r90"	[$WIN32]
+		"wide"			"100"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"enabled"			"0"
+		"visible"			"0"
+		"ypos"			"0"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"15"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"product8"
+	}
+
+	"ItemEffectMeter"
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}
+
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"regular16"
+			"fgcolor"					"216 216 216 255"
+	}
+	"ItemEffectMeterCountS"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountS"
+		"xpos"					"1"
+		"ypos"					"1"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"20"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"regular16"
+		"fgcolor"					"softshadow"
+	}
+}

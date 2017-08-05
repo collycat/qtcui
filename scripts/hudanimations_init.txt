@@ -1,0 +1,14 @@
+event LevelInit
+{
+	RunEvent LevelInitAny 0.0
+}
+event LevelInitAny
+{
+	RunEvent SetHudChatAlpha 0.1
+	
+	RunEvent LevelInitAnyLoop 0.0
+}
+event LevelInitAnyLoop
+{
+	RunEvent LevelInitAny 0.1
+}
